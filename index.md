@@ -21,6 +21,25 @@ while True:
     pin0.write_analog(potVal)
     sleep(25)
  ```
+ 
+### Networking with Microbit
+
+```
+flash = [Image().invert()*(i/9) for i in range(9, -1, -1)]
+
+# The radio won't work unless it's switched on.
+radio.on()
+
+# Event loop.
+while True:
+    # Button A sends a "flash" message.
+    if button_a.was_pressed():
+        radio.send('flash')  # a-ha
+    # Read any incoming messages.
+    incoming = radio.receive()
+```
+
+The code above displayed some of the networking abilities related to microbit. In class, we tried out the code and we were able to communicate and send messages through our microbits to others so they could read the message on their display.
 
 ### IoT Adventure
 
@@ -48,12 +67,19 @@ The code above is what I modified the original idea into. Firstly, I changed the
 
 What problems did you encounter? How did you solve them?
 
+I had trouble with the first assignment, 'Getting started with micropython.' I wasn't able to get the led to display initially and then I had trouble with being able to tweak the light to make it dimmer or brighter with the knob. It was due to the placement of the wires and the pins that I chose on the breadboard. Fixing that was a bit of a hassle but I worked it out eventually. 
+
 Of all the items included, which one was the hardest for you?
+
+The latter stages on the first assignment were tough as I had no prior experience with working with that hardware such as the breadboard, resistsors, jumper wires, etc. Trying to figure out the wiring diagram was a struggle to begin with. 
 
 What goals did you set for yourself? How well did you accomplish them?
 
+The initial goal when I set out in this class was to stay focused, be persistent and to not get too frustrated with the learning process. I feel like I didn't do that very well this unit, though it was very short relative to the first unit. One of the assignments slipped my mind and I only got to it late, meaning I partially finished the IoT adventure. 
+
 Do you feel that this collection of work really reflects your abilities and what you have achieved so far this year? Why or why not?
 
+I don't feel like it does as I slipped up on the IoT adventure assignment as I had forgotten about it until late, leaving me with minimal time to really put all my effort into creating something. This was something very different to unit 1 and it was cool to learn a bit but I do feel like I showed much more of my abilities and what I've learned more so in unit 1. 
 
 ### [Projects](https://github.com/bkebede/Unit-2)
 [Getting Started with Micropython](https://github.com/bkebede/Unit-2/blob/master/Micropython.py)
