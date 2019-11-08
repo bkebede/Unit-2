@@ -49,5 +49,5 @@ The code above is what I modified the original idea into. Firstly, I changed the
 
 
 ### [Projects](https://github.com/bkebede/Unit-2)
-[Getting Started with Micropython](   )
-[IoT Adventure]
+[Getting Started with Micropython](https://github.com/bkebede/Unit-2/blob/master/Micropython.py)
+[IoT Adventure](https://github.com/bkebede/Unit-2/blob/master/Dice%20Modify.py)
