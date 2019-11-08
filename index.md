@@ -20,7 +20,7 @@ while True:
     potVal = pin2.read_analog()
     pin0.write_analog(potVal)
     sleep(25)
-    ```
+ ```
 
 ### IoT Adventure
 
@@ -44,10 +44,21 @@ while True:
 
 The code above is what I modified the original idea into. Firstly, I changed the manner in which the number was obtained by using a list instead of the range function. I added a message prompt to the user to "Roll dice" so the user is aware there is some program in effect. Instead of pressing one of the buttons to get a number, I used a gesture in which if the microbit is shaken, an event is created. That event is rolling of the dice, where a number is returned. I added a message that tells the user they rolled whatever number pops up and I coded it to scroll that message, so the user doesn't miss it. 
 
-### Questions regarding Unit 1...
+### Questions regarding Unit 2...
 
+What problems did you encounter? How did you solve them?
+
+Of all the items included, which one was the hardest for you?
+
+What goals did you set for yourself? How well did you accomplish them?
+
+Do you feel that this collection of work really reflects your abilities and what you have achieved so far this year? Why or why not?
 
 
 ### [Projects](https://github.com/bkebede/Unit-2)
 [Getting Started with Micropython](https://github.com/bkebede/Unit-2/blob/master/Micropython.py)
+
 [IoT Adventure](https://github.com/bkebede/Unit-2/blob/master/Dice%20Modify.py)
+
+
+### [About Me Page](https://bkebede.github.io/)
